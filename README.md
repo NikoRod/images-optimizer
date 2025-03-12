@@ -51,7 +51,7 @@ Before using this project, make sure you have the following:
 2. Run the script with Node.js:
 
     ```bash
-    node index.js
+    node optimizer.js
     ```
 
 3. The script will process all images in the `images` folder. Each image will be resized to a width of 1024px and then compressed using the Tinify API. The optimized images will be saved in a subfolder called `compressed`.
