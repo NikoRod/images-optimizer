@@ -7,7 +7,7 @@ let pLimit;
 (async () => {
   pLimit = (await import("p-limit")).default;
 
-  const API_KEY = "tHbQhChhgqgJ4Q7c5MwBw1F4fj8tl5xq";
+  const API_KEY = "your_api_key";
   const limit = pLimit(5);
 
   async function resizeAndCompress(filePath) {
