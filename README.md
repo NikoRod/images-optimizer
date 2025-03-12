@@ -38,7 +38,7 @@ Before using this project, make sure you have the following:
     npm install
     ```
 
-4. Add your Tinify API key to the `index.js` file by replacing the value of the `API_KEY` variable:
+4. Add your Tinify API key to the `optimizer.js` file by replacing the value of the `API_KEY` variable:
 
     ```js
     const API_KEY = "your_api_key_here";
